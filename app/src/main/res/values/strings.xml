@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">windows_control</string>
+    <string name="ic_computer">&#xe600;</string>
+    <string name="ic_new_create">&#xe601;</string>
+    <string name="ic_shutdown">&#xe678;</string>
+    <string name="ic_back">&#xe607;</string>
+    <string name="ic_mute">&#xe61e;</string>
+    <string name="ic_save">&#xe604;</string>
+    <string name="ic_sub">&#xe729;</string>
+    <string name="lb_edit_computer">编辑电脑</string>
+    <string name="lb_edit_instruction">编辑指令</string>
+    <string name="lb_computer_name">电脑名称</string>
+    <string name="lb_instruction_name">指令名称</string>
+    <string name="my_computer">我的电脑</string>
+    <string name="lb_computer_host">主机地址</string>
+    <string name="lb_computer_port">主机端口</string>
+    <string name="lb_computer_password">密码</string>
+    <string name="btn_finished">完成</string>
+    <string name="et_cmd_type">命令类型</string>
+    <string name="et_command">命令</string>
+    <string name="et_args">参数</string>
+</resources>

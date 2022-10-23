@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddInstructionActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:onClick="doClick"
+            android:text="@string/ic_back"
+            android:textColor="@color/black"
+            android:textSize="28dp" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_edit_instruction"
+            style="@style/titlebox"/>
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:onClick="doClick"
+            android:text="@string/ic_save"
+            android:textColor="@color/black"
+            android:textSize="28dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lb_instruction_name"/>
+    <EditText
+        android:id="@+id/et_instruction_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edit_my"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:text="" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_cmd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--    <ListView-->
+<!--        android:id="@+id/lv_commands"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="commandType">
+        <item>predefined</item>
+        <item>keyboard</item>
+        <item>mouse</item>
+        <item>input_msg</item>
+        <item>shell</item>
+        <item>speak</item>
+
+    </string-array>
+</resources>
