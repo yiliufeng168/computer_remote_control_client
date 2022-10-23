@@ -26,6 +26,7 @@
 4. 点击更多可以添加自定义按钮
 
 ![图片](https://github.com/yiliufeng168/computer_remote_control_client/blob/main/readme_img/controller.png)
+
 长按按钮可以修改删除
 
 ## 自定义功能配置
@@ -99,7 +100,8 @@
     需注意双引号需转义
 5. next_tab
     跳转到下一个标签页
-6. 新建标签页
+6. create_tab
+    新建标签页
 
 
 # 联系
