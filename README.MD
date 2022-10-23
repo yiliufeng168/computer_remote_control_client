@@ -10,18 +10,18 @@
 
 ## 使用方式
 1. 点击左上角加号，添加主机信息
-[图片](./readme_img/add_computer.png)
-[图片](./readme_img/computer_info.png)
+[图片](https://github.com/yiliufeng168/computer_remote_control_client/blob/main/readme_img/add_computer.png)
+[图片](https://github.com/yiliufeng168/computer_remote_control_client/blob/main/readme_img/computer_info.png)
 
 2. 长按列表项可以对主机信息进行编辑和删除
-[图片](./readme_img/edit_computer.png)
+[图片](https://github.com/yiliufeng168/computer_remote_control_client/blob/main/readme_img/edit_computer.png)
 
 3. 点击列表某项可以进入遥控器页面
-[图片](./readme_img/controller.png)
+[图片](https://github.com/yiliufeng168/computer_remote_control_client/blob/main/readme_img/controller.png)
 注意：当前页面`浏览器`和`待定`功能按钮还未实现。音乐默认打开网易云音乐。
 
 4. 点击更多可以添加自定义按钮
-[图片](./readme_img/controller.png)
+[图片](https://github.com/yiliufeng168/computer_remote_control_client/blob/main/readme_img/controller.png)
 长按按钮可以修改删除
 
 ## 自定义功能配置
